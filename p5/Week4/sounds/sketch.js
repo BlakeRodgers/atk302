@@ -11,6 +11,15 @@ function setup() {
   song1.play();
 }
 
+function mouseReleased () {
+  song1.pause();
+  if (song1.isPlayeing()) {
+
+  } else {
+    song1.play();
+  }
+}
+
 function draw() {
   // put drawing code here
 }
