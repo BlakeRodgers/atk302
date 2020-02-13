@@ -11,12 +11,12 @@ switch(myState){
   case 0:
 background('red');
   text("Hello State 0!", 100, 100);
-  break ;
+  break;
 
   case 1:
   background('green');
   text("State 1", 100, 100);
-  break ;
+  break;
 
   case 2:
   break;
